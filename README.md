@@ -51,6 +51,7 @@ Puedes acceder al código fuente del proyecto en el siguiente enlace:
 ![Menu de inicio](https://raw.githubusercontent.com/Fede6299/Imagenes-proyectos/refs/heads/main/challenge-conversor-moneda/menu-challenge-conversor-moneda.png?token=GHSAT0AAAAAACZMZ7TF3S4H3JDKEYRLFQZ6ZZPRHNQ)
 
 7. En caso de no querer realizar otra conversion escribir "salir", finaliza el programa.
+
 ![Finalizo el programa](https://raw.githubusercontent.com/Fede6299/Imagenes-proyectos/refs/heads/main/challenge-conversor-moneda/opcion-salir.png?token=GHSAT0AAAAAACZMZ7TFV7GXM57BY333Y5OGZZPRKCA)
 
 8. Por ultimo el programa creara un ``archivo.json`` con el nombre de la moneda que realizo la conversion.
