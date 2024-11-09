@@ -32,6 +32,7 @@ public class Main {
                     """);
             option = sc.nextLine();
             if (option.equalsIgnoreCase("salir")) {
+                System.out.println("Programa Finalizado, gracias por usar el conversor de monedas.");
                 exit = false;
             }
             else {
@@ -72,6 +73,7 @@ public class Main {
                     "El valor " +
                             df.format(value) + " [" + input_currency  + "] " + " corresponde el valor final de ==> " +
                             df.format(currency.conversion_rates().get(output_currency) * value) + " [" + output_currency + "]");
+            System.out.println();
             FileGenerator generator = new FileGenerator();
             generator.saveJSON(currency);
         } catch (RuntimeException | IOException e) {
